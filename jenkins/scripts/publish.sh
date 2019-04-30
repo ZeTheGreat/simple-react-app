@@ -3,6 +3,7 @@ echo 'Nesta etapa o Jenkins irá publicar o código na branch "prod" do reposit�
 
 set -x
 echo 'set email'
+git remote add origin https://github.com/alexislopes/simple-react-app.git
 git config user.email alexisdrops@gmail.com
 echo 'set user'
 git config user.name alexislopes
