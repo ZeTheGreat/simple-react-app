@@ -6,7 +6,7 @@ echo 'set email'
 git config user.email alexisdrops@gmail.com
 echo 'set user'
 git config user.name alexislopes
-
+echo 'go to develop'
 git checkout develop
 git merge origin/master
 git remote set-url origin git@github.com:alexislopes/simple-react-app
