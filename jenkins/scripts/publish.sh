@@ -6,3 +6,4 @@ git config user.email alexisdrops@gmail.com
 git config user.name alexislopes
 git checkout develop
 git merge origin/master
+git push
