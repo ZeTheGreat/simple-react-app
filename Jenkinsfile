@@ -27,7 +27,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                withCredentials([string(credentialsId: 'token', variable: 'a459c90d24728795800cd8eec202aa39334f6935')]) {
+                withCredentials([string(credentialsId: 'token', variable: 'ca10b5b8061a648b94608febba6f6c5cf4cf15eb')]) {
                     sh './jenkins/scripts/publish.sh'
                 } 
             }
