@@ -10,5 +10,4 @@ echo 'go to develop'
 git checkout develop
 echo 'merge from master'
 git merge origin/master
-git remote set-url origin git@github.com:alexislopes/simple-react-app
 git push origin develop
